@@ -5,9 +5,6 @@ import numpy as np    # Scientific Computing
 
 import matplotlib.pyplot as plt   # Visualization
 
-from IPython.display import display_html
-from itertools import chain,cycle
-
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -287,14 +284,3 @@ def silhouette_analysis(silhouette_values, max_clusters):
     f.set_figheight(8)
 
     return
-
-###[2.4]
-
-def display_side_by_side(*args,titles=cycle([''])):
-    html_str=''
-    for df,title in zip(args, chain(titles,cycle(['</br>'])) ):
-        html_str+='<th style="text-align:center"><td style="vertical-align:top">'
-        html_str+=f'<h2 style="text-align: center;">{title}</h2>'
-        html_str+=df.to_html().replace('table','table style="display:inline"')
-        html_str+='</td></th>'
-    display_html(html_str,raw=True)
