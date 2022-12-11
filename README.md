@@ -9,3 +9,9 @@
 	> a Python file containing functions to be imported and used within the main notebook
 3. __`CommandLine.sh`__: 
 	> executable script answering the command line question
+
+`AUTHORS`:
+
+`Name`: Sara Cammarota `Matricola`: 1869943 `Email`: cammarota.1869943@studenti.uniroma1.it <br>
+`Name`: Francesco Redaelli `Matricola`: 2039054 `Email`:redaelli.2039054@studenti.uniroma1.it <br>
+`Name`: Javier Martinez Velasco `Matricola`: 2058968 `Email`: martinezvelasco.2058968@studenti.uniroma1.it <br>
