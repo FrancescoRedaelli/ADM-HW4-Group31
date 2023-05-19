@@ -1,4 +1,4 @@
-# Algorithmic Methods of Data Mining, Fall 2022 - Homework 4 - Group31
+# Algorithmic Methods of Data Mining; Fall 2022 - Homework 4 - Group31
 
 ## Project: *Getting to know your customers*
 
